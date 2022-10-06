@@ -1,0 +1,48 @@
+.main{
+    border: 5px solid black;
+}
+.Heading{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+
+}
+
+.personal{
+    border: 2px solid black;
+    
+}
+div.Qualification,th{
+    border: 1px solid black;
+}
+div.foot{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+.sub{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-image: url(regist.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sub{
+    font-style: italic;
+    background-color: bisque;
+}
+.sub:hover{
+    color: aqua;
+    background-color: black;
+    font-family: 'Anton', sans-serif;
+
+}
+table,td{
+    font-family: 'Anton', sans-serif;
+
+}
+h3,h4{
+    font-family: 'Anton', sans-serif;
+
+}

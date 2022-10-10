@@ -1,0 +1,54 @@
+*{
+    font-family: 'Alkalami', serif;
+
+}
+
+.corona{
+    width: auto;
+    margin-left: 50px;
+}
+h4{
+    width: auto;
+}
+h2{
+    font-size: 40px;
+}
+pre{
+    font-size: 20px;
+}
+span{
+    font-size: 15px;
+}
+h3{
+    font-size: 20px;
+    line-height: 20px;
+}
+.image {
+    
+    margin-left: 20px;
+    margin-right: 10%;
+
+}
+.information{
+    line-height: 50px;
+    display: flex;
+
+}
+.iframe{
+    float: right;
+    
+}
+header{
+    color: whitesmoke;
+    background-color: red;
+
+    
+    align-items: center;
+    
+}
+.Thenews{
+    margin-left: 100px;
+}
+.Thenews:hover{
+    color: black;
+}

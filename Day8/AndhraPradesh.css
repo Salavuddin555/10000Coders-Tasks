@@ -1,0 +1,28 @@
+header{
+    
+    background-color: red;
+    color:whitesmoke ;
+    padding: 10px;
+}
+.Thenews{
+    margin-left: 100px;
+}
+.state{
+    margin-left: 40px;
+    line-height: 30px;
+    display: flex;
+}
+.blue{
+    color: blueviolet;
+}
+.jagan{
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+h2{
+    color: red;
+}
+.Thenews:hover{
+    color: black;
+}

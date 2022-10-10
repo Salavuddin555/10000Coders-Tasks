@@ -1,0 +1,21 @@
+header{
+    
+    background-color: red;
+}
+.Thenews{
+    padding: 3px;
+    margin-left: 73px;
+}
+.image{
+    display: block;
+    margin-left: 20%;
+    margin-right:auto ;
+    
+}
+.image img{
+    width: 500px;
+    height: 300px;
+    
+}
+
+    

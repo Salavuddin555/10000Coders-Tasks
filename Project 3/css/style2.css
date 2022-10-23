@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    margin: 20px 10px;
+    
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left:56px ;
+    border: 2px solid black;
+    margin: 22px 0px;
+}
+.left img{
+    width:189px;
+    height:77px;
+}
+.mid{
+    display: block;
+    position: absolute;
+    border: 2px solid red;
+    width: 290px;
+    margin: 31px 490px;
+    margin-top: px;
+    color: #507828;
+    
+    padding: 10px 5px;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 117px;
+    top: 50px;
+    margin-right: 40px;
+    border: 2px solid blue;
+
+}
+.right input{
+    margin: 5px 5px;
+    padding: 5px 6px;
+}
+.right button{
+    margin: 5px 5px;
+    padding: 5px 6px;
+}
+.navbar{
+    display: block;
+    position: absolute;
+    border: 2px solid black;
+    width: 100%;
+    margin: 124px -8px;
+    padding: 23px 200px;
+    background-color:#507828;
+}
+.unorder li{
+    display: inline-block;
+    padding:5px 15px;
+
+    
+    
+}
+.unorder li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.ingre{
+    
+    border: 2px solid black;
+    position: absolute;
+    margin: 281px 63px;
+    padding: 20px 10px;
+    width: 900px;
+    color: white;
+    font-weight: bolder;
+    background-color: #507828;
+    font-size: 20px;
+}
+.monk{
+    position: absolute;
+    border: 2px solid black;
+    margin: 398px 61px;
+    
+}
+.monk h3{
+    font-size: 44px;
+    
+}
+.monk h4{
+    font-size: 17px;
+}
+.monk h3,h4{
+    line-height: 55px;
+}
+.monk img{
+    width: 140px;
+    height: 118px;
+}
+.fruit{
+    display: flex;
+    line-height: 26px;
+    
+
+}
+.fruit pre{
+    font-size: 17px;
+    font-family: italic;
+    margin: 3px 36px;
+}

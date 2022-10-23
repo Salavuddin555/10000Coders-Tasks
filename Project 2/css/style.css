@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../Images/HD-wallpaper-lightspeed-background-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bolder;
+
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 33px;
+    top: 20px;
+    border: 2px solid gold;
+    
+}
+.left img{
+    width: 113px;
+    height: 100px;
+    filter: invert(100%);
+}
+.mid{
+    display: block;
+    width: 551px;
+    margin: 12px auto;
+    border: 2px solid red;
+    margin-left: 172x;
+
+}
+.navbar li{
+    display: inline-block;
+    padding: 21px 24px;
+}
+.right{
+    
+    display: inline-block;
+    position: absolute;
+    right: 23px;
+    top: 42px;
+    border: 2px solid blue;
+}
+.search{
+    padding: 8px 12px;
+    margin: -2px;
+}

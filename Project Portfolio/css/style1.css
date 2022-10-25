@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2.5fr 2.5fr 2.5fr 2.5fr;
+    grid-template-rows: 3fr 0.5fr 1fr 2.5fr;
+    grid-template-areas: "profile skills edu edu"
+                            "lang skills edu edu"
+                            "lang contact edu edu"
+                            "lang contact exp exp";
+                            grid-gap: 20px;
+
+}
+.profile{
+    background-color: red;
+    grid-area: profile;
+}
+.skills{
+    background-color:red;
+    grid-area: skills;
+}
+.edu{
+    background-color:red;
+    grid-area: edu;
+}
+.lang{
+    background-color:red;
+    grid-area: lang;
+}
+.contact{
+    background-color:red;
+    grid-area: contact;
+}
+.exp{
+    background-color:red;
+    grid-area: exp;
+}

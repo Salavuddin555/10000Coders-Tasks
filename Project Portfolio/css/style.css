@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../pix.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Baloo 2', cursive;
+    
+
+}
+.container1{
+    width: 100%;
+    height: 50%vh;
+    position: sticky;
+    top: 10px;
+    font-family: 'Baloo 2', cursive;
+    
+
+}
+.menu a:hover{
+    color: #E74C3C;
+    font-size: 25px;
+
+}
+.logo img:hover{
+    color: #E74C3C;
+    font-size: 25px;
+
+}
+.container1 img{
+    width: 100px;
+    padding: 10px;
+    border-radius: 200px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    
+    
+}
+.menu ul{
+    list-style-type: none;
+
+}
+.menu ul li{
+    display: inline-block;
+    padding: 10px 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px 10px;
+    background-image: linear-gradient(lightgray,gray,#ACDDDE);
+    border-radius: 25px;
+    color: #ACDDDE;
+}
+.container2{
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.container2 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.container2 h2{
+    color:#ACDDDE;
+    margin: 20px;
+    letter-spacing:1.5px;
+    font-size: 20px;
+}
+.container2 p{
+    color:#ACDDDE;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+}
+.container3{
+    width: 100%;
+    min-height: 100vh;
+    color:black;
+    display: grid;
+    grid-template-columns: 3fr 3fr 1fr 4fr 1fr;
+    grid-template-rows: 1fr 3fr 7fr 5fr 0.5fr;
+    grid-template-areas: "profile profile skills skills"
+                            "profile profile skills skills"
+                            "edu edu edu lang"
+                            "contact exp exp exp"
+                            "footer footer footer footer";
+                            gap: 5px;
+                            padding: 30px;
+                        font-size: 20px;
+                        margin-left: 20px;
+                        
+                            
+}
+.profile{
+    background-image: linear-gradient(lightgray,gray,#ACDDDE);
+    grid-area: profile;
+    padding:10px 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px orangered;
+    text-align: center;
+    
+}
+.profile p{
+    background-color: #ACDDDE;
+    border-radius: 20px;
+}
+.skills{
+    background-image: linear-gradient(lightgray,gray,#ACDDDE);
+    grid-area: skills;
+    padding:10px 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px orangered;
+    text-align: center;
+}
+.skills-list{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+    gap: 10px;
+}
+.skill-item{
+    background-color: #ACDDDE;
+    padding: 22px 28px;
+    border-radius: 20px;
+    text-align: center;
+}
+.edu{
+    background-image: linear-gradient(lightgray,gray,#ACDDDE);
+     grid-area:edu ;
+     padding:10px 20px;
+     border-radius: 20px;
+     box-shadow: 5px 5px 10px orangered;
+     
+}
+.study{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 30px;
+    
+}
+.study-list{
+    background-color: #ACDDDE;
+  border-radius: 20px;  
+    margin: 10px;
+    padding: 10px 10px;
+}
+
+.lang{
+    background-image: linear-gradient(lightgray,gray,#ACDDDE);
+    grid-area: lang;
+    padding:10px 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px orangered;
+}
+.lang ul li{
+    background-color: #ACDDDE;
+    border-radius: 15px;
+    margin: 15px 10px;
+}
+.contact{
+    background-image: linear-gradient(lightgray,gray,#ACDDDE);
+    grid-area: contact;
+    padding:10px 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px orangered;
+}
+.exp{
+    background-image: linear-gradient(lightgray,gray,#ACDDDE);
+    grid-area: exp;
+    padding:10px 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px orangered;
+}
+.exp p{
+    margin: 0px 20px;
+}
+
+.exp ul li{
+    margin: 15px 30px;
+    background-color: #ACDDDE;
+}
+footer{
+    background-image: linear-gradient(lightgray,gray,#ACDDDE);
+    grid-area: footer;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    box-shadow: 5px 5px 10px orangered;
+    padding: 10px 10px;
+}
+.bx{
+    font-size: 20px;
+}
